@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="182"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uw9-dl-FK9" id="iE0-Tw-rk4">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="182"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I can see the light in the end of the tunnel" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjZ-gF-zRR" userLabel="Message">
@@ -68,7 +68,7 @@
                                 <rect key="frame" x="0.0" y="210" width="375" height="314"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BGM-Mv-qVM" id="Sma-MI-TKs">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="313"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption Im" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNU-bH-Uoi">
@@ -112,7 +112,7 @@
                                 <rect key="frame" x="0.0" y="524" width="375" height="110"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vus-bx-iWc" id="LL5-mk-Aju">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption Soc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCQ-2I-rng">
@@ -176,7 +176,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOu-Rj-t1p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2637.5999999999999" y="-364.7676161919041"/>
+            <point key="canvasLocation" x="2644" y="-367"/>
         </scene>
         <!--Full Screen Image-->
         <scene sceneID="JLQ-hF-eh8">
@@ -194,6 +194,7 @@
                                 <rect key="frame" x="0.0" y="193" width="375" height="281.5"/>
                                 <color key="backgroundColor" red="1" green="0.077573858420000003" blue="0.13999654110000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Lrr-n5-L6x"/>
                                     <constraint firstAttribute="width" secondItem="rSd-uN-CGN" secondAttribute="height" multiplier="375:281" id="RME-mI-Kgd"/>
                                 </constraints>
                             </imageView>
@@ -201,8 +202,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="rSd-uN-CGN" firstAttribute="centerX" secondItem="H6o-Zt-XBw" secondAttribute="centerX" id="4Nl-94-p6r"/>
+                            <constraint firstItem="9j4-Xg-Vvc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="rSd-uN-CGN" secondAttribute="bottom" id="G0W-56-x5T"/>
+                            <constraint firstItem="rSd-uN-CGN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="oHB-W0-UDN" secondAttribute="bottom" id="bGP-z0-4zz"/>
                             <constraint firstItem="rSd-uN-CGN" firstAttribute="centerY" secondItem="H6o-Zt-XBw" secondAttribute="centerY" id="qRF-Da-xQO"/>
-                            <constraint firstItem="rSd-uN-CGN" firstAttribute="width" secondItem="H6o-Zt-XBw" secondAttribute="width" id="y3o-Zb-8u9"/>
                         </constraints>
                     </view>
                     <connections>
@@ -211,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0f-Id-S1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3428" y="-365.66716641679164"/>
+            <point key="canvasLocation" x="3380" y="-367"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0TE-mf-wak">
@@ -229,7 +231,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="COK-1B-Vb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700" y="-363.86806596701655"/>
+            <point key="canvasLocation" x="1900" y="-366"/>
         </scene>
     </scenes>
 </document>

@@ -67,7 +67,6 @@ class MainTableViewController: UITableViewController
         return messageArray.count
     }
     
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         // New cell
